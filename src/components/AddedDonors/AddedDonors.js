@@ -5,7 +5,7 @@ const AddedDonors = (props) => {
   const { addedDonor } = props;
   //added donor informations
   let donorName = [];
-  let displayDonorName;
+
   let total = 0;
   for (const donor of addedDonor) {
     //update total donations

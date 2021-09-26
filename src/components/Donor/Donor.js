@@ -5,9 +5,9 @@ import { faPhoneSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Donor.css";
 
 const Donor = (props) => {
-  console.log(props.donor);
   const { name, age, image, occupation, address, donation_amount } =
     props.donor;
+  //icons
   const element = <FontAwesomeIcon icon={faUser} />;
   const elementPhone = <FontAwesomeIcon icon={faPhoneSquare} />;
   const elementEnvelop = <FontAwesomeIcon icon={faEnvelope} />;
