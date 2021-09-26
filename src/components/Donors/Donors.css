@@ -1,0 +1,12 @@
+.homepage {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.donors-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.added-donors {
+  margin: 10px;
+}
