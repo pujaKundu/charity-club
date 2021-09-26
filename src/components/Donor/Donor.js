@@ -1,10 +1,13 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Donor.css";
 
 const Donor = (props) => {
   console.log(props.donor);
   const { name, age, image, occupation, address, donation_amount } =
     props.donor;
+  const element = <FontAwesomeIcon icon={faUser} />;
   return (
     <div className="donor-card">
       <div className="donor-img">
@@ -22,8 +25,9 @@ const Donor = (props) => {
           <span>Address:</span> {address}
         </p>
         <p>
-          <span>Donations:</span> {donation_amount}
+          <span>Donations:</span> {donation_amount} Taka
         </p>
+        <button className="donor-btn">{element} Select Donor</button>
       </div>
     </div>
   );

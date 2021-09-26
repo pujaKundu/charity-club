@@ -21,3 +21,13 @@
 .donor-info p span {
   font-weight: 700;
 }
+.donor-btn {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: 700;
+}
